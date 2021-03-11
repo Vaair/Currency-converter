@@ -13,14 +13,7 @@ API: [https://open.exchangerate-api.com/v6/latest](https://open.exchangerate-api
 3) Сохранение данных для offline режима
 
 <p>
-    <img src="Home.png" width="220" height="240" />
+    <img src="Home.png" width="293" height="633" />
+    <img src="Home-typing.png" width="293" height="633" />
+    <img src="Choose.png" width="293" height="633" />
 </p>
-
-Home
-![Screenshot](Home.png)
-
-Home-typing
-![Screenshot](Home-typing.png)
-
-Choose
-![Screenshot](Choose.png)
