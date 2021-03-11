@@ -13,10 +13,10 @@ API: [https://open.exchangerate-api.com/v6/latest](https://open.exchangerate-api
 3) Сохранение данных для offline режима
 
 Home
-![alt text](https://github.com/Vaair/Currency-converter/blob/main/Home.png)
+![Screenshot](Home.png)
 
 Home-typing
-![alt text](https://github.com/Vaair/Currency-converter/blob/main/Home-typing.png)
+![Screenshot](Home-typing.png)
 
 Choose
-![alt text](https://github.com/Vaair/Currency-converter/blob/main/Choose.png)
+![Screenshot](Choose.png)
