@@ -7,20 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A79E11625F8BFF1001E5B6F /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A79E11525F8BFF1001E5B6F /* NetworkManager.swift */; };
+		3A79E11A25F8C066001E5B6F /* Currencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A79E11925F8C065001E5B6F /* Currencies.swift */; };
+		3A79E12A25F8D3B4001E5B6F /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A79E12925F8D3B4001E5B6F /* ViewModel.swift */; };
+		3A79E13725F9139E001E5B6F /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A79E13625F9139E001E5B6F /* TableView.swift */; };
+		3A79E13D25F91422001E5B6F /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A79E13C25F91422001E5B6F /* TableViewCell.swift */; };
+		3A79E14225F9143E001E5B6F /* TableViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A79E14125F9143E001E5B6F /* TableViewCellViewModel.swift */; };
+		3A79E14525F9144D001E5B6F /* TableViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A79E14425F9144D001E5B6F /* TableViewViewModel.swift */; };
 		3AC9078725F8011E004487CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC9078625F8011E004487CD /* AppDelegate.swift */; };
 		3AC9078925F8011E004487CD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC9078825F8011E004487CD /* SceneDelegate.swift */; };
 		3AC9078B25F8011E004487CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC9078A25F8011E004487CD /* ViewController.swift */; };
-		3AC9078E25F8011E004487CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AC9078C25F8011E004487CD /* Main.storyboard */; };
 		3AC9079025F80123004487CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AC9078F25F80123004487CD /* Assets.xcassets */; };
 		3AC9079325F80123004487CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AC9079125F80123004487CD /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A79E11525F8BFF1001E5B6F /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		3A79E11925F8C065001E5B6F /* Currencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currencies.swift; sourceTree = "<group>"; };
+		3A79E12925F8D3B4001E5B6F /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		3A79E13625F9139E001E5B6F /* TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
+		3A79E13C25F91422001E5B6F /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		3A79E14125F9143E001E5B6F /* TableViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellViewModel.swift; sourceTree = "<group>"; };
+		3A79E14425F9144D001E5B6F /* TableViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewViewModel.swift; sourceTree = "<group>"; };
 		3AC9078325F8011E004487CD /* Конвертер валют.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Конвертер валют.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AC9078625F8011E004487CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3AC9078825F8011E004487CD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3AC9078A25F8011E004487CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3AC9078D25F8011E004487CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3AC9078F25F80123004487CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3AC9079225F80123004487CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3AC9079425F80123004487CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -37,6 +49,119 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A79E11825F8C02C001E5B6F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3A79E11925F8C065001E5B6F /* Currencies.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3A79E11E25F8D01A001E5B6F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3AC9078F25F80123004487CD /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3A79E11F25F8D049001E5B6F /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				3AC9079425F80123004487CD /* Info.plist */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		3A79E12125F8D080001E5B6F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3AC9078625F8011E004487CD /* AppDelegate.swift */,
+				3AC9078825F8011E004487CD /* SceneDelegate.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3A79E12225F8D08D001E5B6F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				3A79E12325F8D095001E5B6F /* View */,
+				3A79E12125F8D080001E5B6F /* Controllers */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		3A79E12325F8D095001E5B6F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3AC9079125F80123004487CD /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3A79E12425F8D0B1001E5B6F /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				3A79E11825F8C02C001E5B6F /* Model */,
+				3A79E12525F8D0C7001E5B6F /* View */,
+				3A79E12825F8D39F001E5B6F /* ViewModel */,
+				3A79E13525F91376001E5B6F /* TableView */,
+				3A79E12625F8D0DD001E5B6F /* Networking */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		3A79E12525F8D0C7001E5B6F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3AC9078A25F8011E004487CD /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3A79E12625F8D0DD001E5B6F /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				3A79E11525F8BFF1001E5B6F /* NetworkManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		3A79E12825F8D39F001E5B6F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3A79E12925F8D3B4001E5B6F /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3A79E13525F91376001E5B6F /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				3A79E13A25F913F2001E5B6F /* View */,
+				3A79E13B25F913F8001E5B6F /* ViewModel */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		3A79E13A25F913F2001E5B6F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3A79E13C25F91422001E5B6F /* TableViewCell.swift */,
+				3A79E13625F9139E001E5B6F /* TableView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3A79E13B25F913F8001E5B6F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3A79E14125F9143E001E5B6F /* TableViewCellViewModel.swift */,
+				3A79E14425F9144D001E5B6F /* TableViewViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		3AC9077A25F8011E004487CD = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +181,10 @@
 		3AC9078525F8011E004487CD /* Конвертер валют */ = {
 			isa = PBXGroup;
 			children = (
-				3AC9078625F8011E004487CD /* AppDelegate.swift */,
-				3AC9078825F8011E004487CD /* SceneDelegate.swift */,
-				3AC9078A25F8011E004487CD /* ViewController.swift */,
-				3AC9078C25F8011E004487CD /* Main.storyboard */,
-				3AC9078F25F80123004487CD /* Assets.xcassets */,
-				3AC9079125F80123004487CD /* LaunchScreen.storyboard */,
-				3AC9079425F80123004487CD /* Info.plist */,
+				3A79E12225F8D08D001E5B6F /* App */,
+				3A79E12425F8D0B1001E5B6F /* Core */,
+				3A79E11F25F8D049001E5B6F /* Supporting files */,
+				3A79E11E25F8D01A001E5B6F /* Resources */,
 			);
 			path = "Конвертер валют";
 			sourceTree = "<group>";
@@ -126,7 +248,6 @@
 			files = (
 				3AC9079325F80123004487CD /* LaunchScreen.storyboard in Resources */,
 				3AC9079025F80123004487CD /* Assets.xcassets in Resources */,
-				3AC9078E25F8011E004487CD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,23 +258,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A79E14225F9143E001E5B6F /* TableViewCellViewModel.swift in Sources */,
+				3A79E11625F8BFF1001E5B6F /* NetworkManager.swift in Sources */,
 				3AC9078B25F8011E004487CD /* ViewController.swift in Sources */,
 				3AC9078725F8011E004487CD /* AppDelegate.swift in Sources */,
+				3A79E13D25F91422001E5B6F /* TableViewCell.swift in Sources */,
 				3AC9078925F8011E004487CD /* SceneDelegate.swift in Sources */,
+				3A79E13725F9139E001E5B6F /* TableView.swift in Sources */,
+				3A79E14525F9144D001E5B6F /* TableViewViewModel.swift in Sources */,
+				3A79E12A25F8D3B4001E5B6F /* ViewModel.swift in Sources */,
+				3A79E11A25F8C066001E5B6F /* Currencies.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3AC9078C25F8011E004487CD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3AC9078D25F8011E004487CD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3AC9079125F80123004487CD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -288,12 +408,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R6ZKDKTMVP;
-				INFOPLIST_FILE = "Конвертер валют/Info.plist";
+				INFOPLIST_FILE = "Конвертер валют/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "LT.---------------";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LT.CurrencyConverter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -307,12 +427,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R6ZKDKTMVP;
-				INFOPLIST_FILE = "Конвертер валют/Info.plist";
+				INFOPLIST_FILE = "Конвертер валют/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "LT.---------------";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LT.CurrencyConverter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
