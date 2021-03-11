@@ -171,7 +171,8 @@ class ViewController: UIViewController {
         sendCurrencyButton.setTitle(getCurrencyButton.titleLabel?.text, for: .normal)
         getCurrencyButton.setTitle(supportingLet, for: .normal)
         
-        sendCurrencyTextField.text = getCurrencyResultLabel.text
+        sendCurrencyTextField.text = getCurrencyResultLabel.text == " " ? "" : getCurrencyResultLabel.text
+        
         calculate()
     }
     
