@@ -20,7 +20,7 @@ class TableViewCell: UITableViewCell {
     
     let selectedImageIcon: UIImageView = {
         let imageView = UIImageView()
-        imageView.tintColor = #colorLiteral(red: 0.3628509641, green: 0.4177888036, blue: 0.8876214027, alpha: 1)
+        imageView.tintColor = #colorLiteral(red: 0.7893945575, green: 0.7895832658, blue: 0.8566804528, alpha: 1)
         imageView.translatesAutoresizingMaskIntoConstraints = false
         return imageView
     }()
@@ -36,8 +36,10 @@ class TableViewCell: UITableViewCell {
         super.setSelected(selected, animated: true)
         if selected{
             selectedImageIcon.image = UIImage(systemName: "largecircle.fill.circle")
+            selectedImageIcon.tintColor = #colorLiteral(red: 0.3628509641, green: 0.4177888036, blue: 0.8876214027, alpha: 1)
         } else{
             selectedImageIcon.image = UIImage(systemName: "circle")
+            selectedImageIcon.tintColor = #colorLiteral(red: 0.7893945575, green: 0.7895832658, blue: 0.8566804528, alpha: 1)
         }
     }
     
