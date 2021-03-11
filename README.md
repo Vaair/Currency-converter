@@ -12,6 +12,10 @@ API: [https://open.exchangerate-api.com/v6/latest](https://open.exchangerate-api
 
 3) Сохранение данных для offline режима
 
+<p>
+    <img src="Home.png" width="220" height="240" />
+</p>
+
 Home
 ![Screenshot](Home.png)
 
